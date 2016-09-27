@@ -27,7 +27,7 @@ private func parseObject<T: PFObject>(_ objectDictionary: [String:AnyObject]) th
 		return !(invalidKeys[key].map { $0() } ?? false)
 	}
 	guard let parseObject = PFDecoder.object().decode(objectDictionary) as? T else {
-		throw LiveQueryErrors.InvalidJSONError(json: objectDictionary, expectedKey: nil)
+		throw LiveQueryErrors.InvalidJSONError(json: objectDictionary, expectedKey: "N/A")
 	}
 	
     return parseObject
