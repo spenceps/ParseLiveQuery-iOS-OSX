@@ -7,18 +7,23 @@ PODS:
 
 DEPENDENCIES:
   - Bolts-Swift (from `https://github.com/BoltsFramework/Bolts-Swift.git`, tag `1.3.0`)
-  - Parse
+  - Parse (from `https://github.com/spenceps/Parse-SDK-iOS-OSX.git`)
   - SocketRocket
 
 EXTERNAL SOURCES:
   Bolts-Swift:
     :git: https://github.com/BoltsFramework/Bolts-Swift.git
     :tag: 1.3.0
+  Parse:
+    :git: https://github.com/spenceps/Parse-SDK-iOS-OSX.git
 
 CHECKOUT OPTIONS:
   Bolts-Swift:
     :git: https://github.com/BoltsFramework/Bolts-Swift.git
     :tag: 1.3.0
+  Parse:
+    :commit: d0fd28478a6687a7436c10a23f9ac922fda9a875
+    :git: https://github.com/spenceps/Parse-SDK-iOS-OSX.git
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
@@ -26,6 +31,6 @@ SPEC CHECKSUMS:
   Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: ccd9b68a1b8b06aee68db55ab458175ae7383cef
+PODFILE CHECKSUM: b10b956312fbd0d33c80746e9dc18c0f2c7fd9e8
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.0.1

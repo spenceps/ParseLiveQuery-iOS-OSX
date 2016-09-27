@@ -2,7 +2,7 @@ use_frameworks!
 workspace 'ParseLiveQuery.xcworkspace'
 
 def commonPods
-  pod 'Parse'
+  pod 'Parse', :git => 'https://github.com/spenceps/Parse-SDK-iOS-OSX.git'
   pod 'Bolts-Swift', :git => 'https://github.com/BoltsFramework/Bolts-Swift.git', tag: '1.3.0'
   pod 'SocketRocket'
 end
